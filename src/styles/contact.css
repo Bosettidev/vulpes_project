@@ -1,0 +1,39 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto; /* Ajusta a altura conforme o conteúdo */
+    width: 500px; /* Aumentado */
+    padding: 20px; /* Aumentado */
+}
+
+.contactUs {
+    background-color: #D2B48C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 250px; /* Aumentado */
+    border-radius: 15px; /* Bordas mais arredondadas */
+    text-align: center;
+}
+
+.contactUs .phone, 
+.contactUs .email {
+    font-size: px; /* Texto levemente maior */
+    color: #4B2E2E;
+    text-align: center;
+    margin: 15px 0; /* Mais espaço entre os blocos */
+}
+
+.contactUs .phone .buttonPhone, 
+.contactUs .email .buttonEmail {
+    background: none; /* Remove fundo branco */
+    padding: 10px 0;
+    font-weight: bold;
+}

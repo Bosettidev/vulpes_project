@@ -1,0 +1,33 @@
+.containerMain {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto; /* Ajusta a altura conforme o conteúdo */
+    width: 500px; /* Aumentado */
+    padding: 20px; /* Aumentado */
+}
+.middleContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 250px; /* Aumentado */
+    border-radius: 15px; /* Bordas mais arredondadas */
+    text-align: center;
+}
+.textWelcome .startHere{
+    color: darkolivegreen;
+}
+.textWelcome .startSecond{
+    color:#333;
+    font-size: 300px;
+}
+.buttonView {
+    background-color: transparent;  
+    color: darkolivegreen; 
+}
